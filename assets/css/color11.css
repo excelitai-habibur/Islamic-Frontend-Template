@@ -7847,7 +7847,8 @@ background: black;
     margin-bottom: auto; }
 
 .megastore-slide .slide-main .slide-contain {
-  height: 459px;
+  width:500px;
+    height: 459px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7857,9 +7858,9 @@ background: black;
   padding-left: 40px;
   padding-right: 40px; }
   .megastore-slide .slide-main .slide-contain h4 {
-    font-size: calc(18px + (23 - 18) * ((100vw - 320px) / (1920 - 320)));
+    font-size: 30px;
     letter-spacing: 1px;
-    color: #3DC73C;
+    color: #ffffff;
     font-weight: 700;
     font-family: "Roboto", sans-serif;
     text-transform: capitalize;
@@ -11734,10 +11735,12 @@ background: black;
         -ms-flex-align: center;
             align-items: center;
     border: 1px solid #dddddd;
-    color: #999999;
+    background:var(--primary);
+    color: #fff;
     border-radius: 100%;
     -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease; }
+    transition: all 0.5s ease;
+   }
     .product-right .pro-group .product-social li a i {
       font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1920 - 320))); }
   .product-right .pro-group .product-social li:hover a {
