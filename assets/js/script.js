@@ -3031,11 +3031,11 @@ function addItemToCart() {
   const newCartItem =
     `<div class="media">
         <a href="product-page(left-sidebar).html">
-        <img alt="megastore1" class="me-3" src="../assets/images/mega-store/product/1.jpg">
+        <img alt="megastore1" class="me-3" src="../assets/images/category/pink-abaya.png">
         </a>
       <div class="media-body">
         <a href="product-page(left-sidebar).html">
-          <h4>women fashion shoes</h4>
+          <h4>Pink Abaya</h4>
         </a>
        <h6>
           $80.00 <span>$120.00</span>
@@ -3144,7 +3144,6 @@ function toggleCategorySidemenu() {
     sidemenuContainer.classList.add('hide-menu');
     mainContents.classList.add('category-closed');
   }
-  
 }
 
 
@@ -3175,5 +3174,3 @@ function categoryFilterToggle() {
     moreText.style.display = "block";
   }
 }
-
-
