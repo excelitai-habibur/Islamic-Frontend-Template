@@ -3632,3 +3632,89 @@ input[type=range]:focus::-ms-fill-upper {
         align-items: center;
     }
 }
+/* --------------------------------------------new added styles---------------------------------------- */
+
+.order_complete h4{
+    border: 1px solid #C2C2C2;
+    margin: 2%;
+    padding: 5%;
+    text-align: center;
+    font-family: Tahoma;
+font-style: normal;
+font-weight: bold;
+font-size: 1.5rem;
+line-height: 31px;
+letter-spacing: 0.055em;
+color: #1D1F1F;
+}
+.order_info{
+    text-align: center;
+    margin-left: 15%;
+    /* margin-right: 10%; */
+}
+.order_info h5 {
+    color: #000;
+}
+.order_info p {
+    color: #000;
+}
+.order_info{
+   margin-right: 15%;    
+}
+.order_details_wrap{
+    padding: 0 300px;
+}
+.order_details_wrap h4{
+    color: #000;
+    margin-bottom: 2%;
+}
+.order_details{
+    /* width: 80%; */
+    width: 100%;
+    border: 1px solid #939B9E;
+    
+}
+.order_details h5{
+    font-size: 1.2rem;
+    color: #000;
+}
+.oreder_details_table td {
+    text-align: left;
+}
+.oreder_details_table th {
+    text-align: left;
+}
+.order_page_price{
+    text-align:center;
+}
+/* .order_details-wrapper{
+    margin: 2%;
+    margin-left: 25%;
+    border: 1px solid #C2C2C2;
+    padding: 2%;
+} */
+.order_log{
+    width: 80%;
+    margin-left: 9%;
+    margin-bottom: 5%;
+}
+.order_address{
+
+    width: 80%;
+    margin-left: 25%;
+}
+.orde_page_button{
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.order_details_flex{
+    padding: 0;
+}
+@media only screen and (max-width: 768px) {
+    .order_details_wrap{
+        padding: 0;
+    }
+    .order_details_flex{
+        padding: 0;
+    }
+}

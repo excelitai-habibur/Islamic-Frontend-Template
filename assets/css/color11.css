@@ -14405,14 +14405,14 @@ background: black;
           text-decoration: line-through;
           margin-left: 10%; }
   .theme-modal#exampleModal .modal-body {
-    padding: 0; }
+    padding: 10; }
   .theme-modal#exampleModal .btn-close span {
     color: #3DC73C;
-    font-size: 35px;
+    font-size: 15px;
     text-shadow: none; }
   .theme-modal#exampleModal .modal-bg {
-    background-color: #ffffff96 !important;
-    padding: 0; }
+    background-color: #ffffff !important;
+    padding: 10px; }
   .theme-modal#exampleModal .close {
     position: absolute;
     right: 10px; }
