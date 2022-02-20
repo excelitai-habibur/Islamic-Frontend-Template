@@ -372,6 +372,13 @@
                   <!-- end checkout-header  -->
                </div>
                <!-- end checkout-header-wrap  -->
+
+               <!-- coupon 4444-->
+               <div class="coupon_modal">
+                  <P>Returning Customer? <a href="#">LOGIN</a></P>
+               Have a coupon? <a href="#" data-bs-toggle="modal" data-bs-target="#checkInModal">Enter Your Code</a>
+               </div>
+               <!-- end coupon -->
                <div class="checkout-header-inner">
                   <h5>Billing Details</h5>
                </div>
@@ -393,54 +400,58 @@
                                        <input type="text" class="form-control" placeholder="Last name">
                                     </div>
                                     <!-- end col  -->
-                                    <div class="col-lg-6 col-md-12">
-                                       <label for="">Phone</label>
-                                       <input type="text" class="form-control" placeholder="Phone">
-                                    </div>
-                                    <!-- end col  -->
-                                    <div class="col-lg-6 col-md-12">
-                                       <label for="">Email Address</label>
-                                       <input type="text" class="form-control" placeholder="Email">
-                                    </div>
-                                    <!-- end col  -->
                                     <div class="col-sm-12 col-md-12">
-                                       <label for="">Country</label>
-                                       <input type="text" class="form-control" placeholder="Country">
+                                       <label for="">Company Name (Optional)</label>
+                                       <input type="text" class="form-control">
                                     </div>
                                     <!-- end col  -->
                                     <div class="col-sm-12">
-                                       <label for=""> Address </label>
-                                       <input type="text" class="form-control" placeholder="Address">
+                                       <label for=""> Country / Region </label>
+                                       <span style="color: red;">*</span>
+                                       <input type="text" class="form-control" placeholder="United States (US)">
                                     </div>
                                     <!-- end col  -->
                                     <div class="col-sm-12">
-                                       <label for="">Town/City</label>
-                                       <input type="text" class="form-control" placeholder="Town/City">
+                                       <label for=""> Street Address </label>
+                                       <span style="color: red;">*</span>
+                                       <input type="text" class="form-control" placeholder="House & Road Number">
+                                       <input type="text" class="form-control" placeholder="Flore & Apartment">
                                     </div>
                                     <!-- end col  -->
-                                    <div class="col-sm-12">
+                                    <div class="col-lg-6 col-md-12">
+                                       <label for="">Town / City</label>
+                                       <input type="text" class="form-control" ">
+                                    </div>
+                                    <!-- end col  -->
+                                    <div class="col-lg-6">
                                        <label for="">State</label>
-                                       <input type="text" class="form-control" placeholder="State">
+                                       <input type="text" class="form-control" placeholder="e.g. California">
+                                    </div>
+                                     <!-- end col  -->
+                                    <div class="col-lg-6 col-md-12">
+                                       <label for="">Zip <span style="color: red; ">*</span></label>
+                                       
+                                       <input type="text" class="form-control">
                                     </div>
                                     <!-- end col  -->
-
+                                    <div class="col-lg-6">
+                                       <label for="">Phone</label>
+                                       <input type="text" class="form-control">
+                                    </div>
+                                     <!-- end col  -->
                                     <div class="col-sm-12">
-                                       <label for="">Postal Code</label>
-                                       <input type="text" class="form-control" placeholder="Postal Code">
+                                       <label for="">Email</label>
+                                       <span style="color: red;">*</span>
+                                       <input type="text" class="form-control" placeholder="example@gmail.com">
                                     </div>
                                     <!-- end col  -->
                                     <div class="col-sm-12">
-                                       <div class="form-check">
-                                          <input class="form-check-input " type="checkbox" id="gridCheck">
-                                          <label class="form-check-label " for="gridCheck">
-                                             Create An Account?
-                                          </label>
-
-                                       </div>
-                                       <!-- end form-check  -->
+                                       <div class="form-group">
+                                          <label for="exampleFormControlTextarea3">Order Notes (optional)</label>
+                                          <textarea class="form-control" id="exampleFormControlTextarea3" rows="7" placeholder="Your Valuable Note Here"></textarea>
+                                        </div>
                                     </div>
-
-
+                                    <!-- end col  -->
                                  </div>
                               </form>
                            </div>
@@ -456,19 +467,24 @@
                            <div class="checkout-form-inner">
                               <div class="checkout-product-info">
                                  <div class="checkout-product-header">
-                                    <h5> Product</h5>
+                                    <h5> Your Order</h5>
                                     <h5> Total</h5>
                                  </div>
                                  <!-- end checkout-product-header-->
 
                                  <div class="checkout-product-inner-cont">
                                     <div class="checkout-product-cont">
-                                       <p> White T-shirt * 1</p>
-                                       <p>&#2547; 2,000.0</p>
+                                       <p> Green Janamaz &#10006; 1</p>
+                                       <p>&#2547; 800.0</p>
                                     </div>
                                     <!-- end checkout-product-cont-->
                                     <div class="checkout-product-cont">
-                                       <p> Black jeans * 1</p>
+                                       <p> Pearl Tasbi &#10006; 2</p>
+                                       <p>&#2547; 300.0</p>
+                                    </div>
+                                    <!-- end checkout-product-cont-->
+                                    <div class="checkout-product-cont">
+                                       <p> Pink Burqa &#10006; 2</p>
                                        <p>&#2547; 2,000.0</p>
                                     </div>
                                     <!-- end checkout-product-cont-->
@@ -478,7 +494,7 @@
                                  <div class="checkout-product-inner-cont">
                                     <div class="checkout-product-cont">
                                        <p> Sub Total</p>
-                                       <p class="total-clr">&#2547; 4,000.0</p>
+                                       <p class="total-clr">&#2547; 2,100.0</p>
                                     </div>
                                     <!-- end checkout-product-cont-->
                                     <div class="checkout-product-cont">
@@ -555,8 +571,8 @@
                                  <!-- end checkout-total-radio  -->
 
                                  <div class="checkout-button-holder">
-                                    <button type="button" class="btn order-btn" data-bs-toggle="modal"
-                                       data-bs-target="#staticBackdrop"> Place Order </button>
+                                    <button type="button" class="btn order-btn"> Place Order
+                                    </button>
                                  </div>
                                  <!-- end checkout-button-holder -->
                               </div>
@@ -1248,6 +1264,7 @@
    </div>
    <!-- Quick-view modal popup end-->
 
+   
    <!-- edit product modal start-->
    <div class="modal fade bd-example-modal-lg theme-modal pro-edit-modal" id="edit-product" tabindex="-1" role="dialog"
       aria-hidden="true">
@@ -1337,7 +1354,39 @@
       </div>
    </div>
    <!-- edit product modal end-->
+<!-- Cupon Box Modal -->
+<div class="modal" tabindex="-1" role="dialog" id="checkoutModal">
+   <div class="modal-dialog" role="document" style="margin-top: 20%;">
+     <div class="modal-content" style="padding: 10%;">
+       <div class="modal-header">
+         <h5 class="modal-title">If you have a coupon code, please apply it below.</h5>
+       </div>
+       <br>
+       <div class="form-group mx-sm-3 mb-2">
+         <!-- <label for="inputPassword2" class="sr-only">Password</label> -->
+          <input type="password" class="form-control" id="inputPassword2" placeholder="code here">
+       </div>
+       <button type="submit" class="btn btn-warning mb-2">Apply Coupon</button>
+     </div>
+   </div>
+ </div>
+<!-- Cupon Box Modal ends -->
 
+<div class="modal" tabindex="-1" role="dialog" id="checkInModal">
+   <div class="modal-dialog" role="document" style="margin-top: 20%;">
+     <div class="modal-content" style="padding: 10%;">
+       <div class="modal-header">
+         <h5 class="modal-title">If you have a coupon code, please apply it below.</h5>
+       </div>
+       <br>
+       <div class="form-group mx-sm-3 mb-2">
+         <!-- <label for="inputPassword2" class="sr-only">Password</label> -->
+          <input type="password" class="form-control" id="inputPassword2" placeholder="code here">
+       </div>
+       <button type="submit" class="btn btn-warning mb-2">Apply Coupon</button>
+     </div>
+   </div>
+ </div>
 
 
 
