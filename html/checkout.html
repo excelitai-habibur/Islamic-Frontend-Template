@@ -372,6 +372,13 @@
                   <!-- end checkout-header  -->
                </div>
                <!-- end checkout-header-wrap  -->
+
+               <!-- coupon 4444-->
+               <div class="coupon_modal">
+                  <P>Returning Customer? <a href="#">LOGIN</a></P>
+               Have a coupon? <a href="#" data-bs-toggle="modal" data-bs-target="#checkInModal">Enter Your Code</a>
+               </div>
+               <!-- end coupon -->
                <div class="checkout-header-inner">
                   <h5>Billing Details</h5>
                </div>
@@ -564,8 +571,7 @@
                                  <!-- end checkout-total-radio  -->
 
                                  <div class="checkout-button-holder">
-                                    <button type="button" class="btn order-btn" data-bs-toggle="modal"
-                                       data-bs-target="#checkoutModal"> Place Order
+                                    <button type="button" class="btn order-btn"> Place Order
                                     </button>
                                  </div>
                                  <!-- end checkout-button-holder -->
@@ -1365,6 +1371,22 @@
    </div>
  </div>
 <!-- Cupon Box Modal ends -->
+
+<div class="modal" tabindex="-1" role="dialog" id="checkInModal">
+   <div class="modal-dialog" role="document" style="margin-top: 20%;">
+     <div class="modal-content" style="padding: 10%;">
+       <div class="modal-header">
+         <h5 class="modal-title">If you have a coupon code, please apply it below.</h5>
+       </div>
+       <br>
+       <div class="form-group mx-sm-3 mb-2">
+         <!-- <label for="inputPassword2" class="sr-only">Password</label> -->
+          <input type="password" class="form-control" id="inputPassword2" placeholder="code here">
+       </div>
+       <button type="submit" class="btn btn-warning mb-2">Apply Coupon</button>
+     </div>
+   </div>
+ </div>
 
 
 

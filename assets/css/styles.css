@@ -1,14 +1,14 @@
 :root {
     --primary: #F9B92E;
     --primary2:#F5D387;
-    --secondary:#65C21B;
+    --secondary:#F5D387;
 
     --dark-primary: #444444;
     --dark-secondary: #939B9E;
     --text-white: #ffffff;
     --light-gray: #E7E7E7;
-    --groceryColor: #3DC73C;
-    --groceryColor2: #9FF348;
+    --groceryColor: #A79DB5;
+    --groceryColor2: #F9B92E;
 }
 
 body {
@@ -34,7 +34,7 @@ body {
 }
 
 .btn-primary-filled:hover {
-    background-color: #3d9e3d;
+    background-color: #ffbb34;
     color: white;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .btn-primary2-filled:hover {
-    background-color: #37a837;
+    background-color: #ffbb34;
     color: white;
 }
 
@@ -359,13 +359,13 @@ body {
 
 .sub-category {
     margin-left: 15px;
-    border-left: 0.5px solid #8ef13d;
+    border-left: 0.5px solid #ffbb34;
     padding-left: 15px;
 }
 
 .sub-sub-category {
     margin-left: 15px;
-    border-left: 0.5px solid #8ef13d;
+    border-left: 0.5px solid #ffbb34;
     padding-left: 15px;
 }
 
@@ -563,7 +563,7 @@ margin-bottom: 15px;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
-color: #65C21B;
+color: #ffbb34;
 margin-bottom: 10px;
 margin-right: 5px;
 
@@ -2035,9 +2035,9 @@ width: 211px;
     margin: 5px;
     margin-bottom: 15px;
     width: 204px;
-    color: #3DC73C !important;
+    color: #ffbb34 !important;
     background-color: transparent !important;
-    border: 1px solid #3DC73C;
+    border: 1px solid #ffbb34;
 }
 
 
@@ -2050,7 +2050,7 @@ width: 211px;
 
 
 .profile .user-menu-btn .btn:hover {
-    background-color: #3DC73C !important;
+    background-color: #ffbb34 !important;
     color: #fff !important;
 }
 
@@ -2074,13 +2074,13 @@ width: 211px;
 }
 
 .profile-update-btn .btn {
-    border-color: #3DC73C;
-    color: #3DC73C !important;
+    border-color: #ffbb34;
+    color: #ffbb34 !important;
     transition: all 0.5s ease;
 }
 
 .profile-update-btn .btn:hover {
-    background: #3DC73C;
+    background: #ffbb34;
     color: #fff !important;
     transition: all 0.8s ease;
 }
@@ -2134,7 +2134,7 @@ width: 211px;
 }
 
 .order-table-inner .view-btn {
-    color: #3DC73C;
+    color: #ffbb34;
 }
 
 .order-table-inner .invoice-btn {
@@ -2464,7 +2464,7 @@ width: 211px;
 
 .payment-succ-inner span i {
     font-size: 50px;
-    color: #00C944;
+    color: #ffbb34;
     margin-bottom: 10px;
 }
 
@@ -2612,7 +2612,7 @@ width: 211px;
         width: 0px;
         height: 0px;
         padding: 5px 14px;
-        background: #00C944;
+        background: #ffbb34;
         border-radius: 50%;
         position: relative;
     }
@@ -2821,7 +2821,7 @@ width: 211px;
         top: 11px;
         width: 50px;
         height: 5px;
-        background: #00C944;
+        background: #ffbb34;
     }
 
     .payment-stage-list .progress-circle::after {
@@ -2999,7 +2999,7 @@ width: 211px;
 }
 
 .contacts-info-inner .contact-social-info .whatsapp {
-    color: #00E676;
+    color: #ffbb34;
     font-size: 35px;
     margin-right: 4px;
 }
@@ -4056,7 +4056,7 @@ border: 1px solid #C2C2C2;
     justify-content: center;
     text-align: center;
     padding-top: 5px;
-    background: #3DC73C;
+    background: #ffbb34;
 
 }
 
@@ -4310,7 +4310,12 @@ border: 1px solid #C2C2C2;
         align-items: center;
     }
 }
-/* --------------------------------------------new added styles---------------------------------------- */
+/* ==================checkout page styles================ */
+.coupon_modal a{
+    color: #000;
+    font-weight: 700;
+}
+/* --------------------------------------------new added styles------------------------order---------------- */
 
 .order_complete h4{
     border: 1px solid #C2C2C2;
@@ -4426,7 +4431,7 @@ font-weight: bold;
 font-size: 16px;
 line-height: 19px;
 
-color: #65C21B;
+color: #ffbb34;
 }
 
 .shoping-cart-btns{
