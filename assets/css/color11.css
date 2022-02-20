@@ -635,7 +635,9 @@ button:focus {
   margin-bottom: 0; }
 
 .txt-default {
-  color: #3DC73C; }
+  color: var(--primary); 
+  font-weight: 500;
+}
 
 .bg-light0 {
   background-color: #f1e7e6; }
