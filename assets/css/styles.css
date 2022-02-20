@@ -1656,6 +1656,10 @@ width: 211px;
 
 
 
+.footer-banner .footer-banner-img img{
+    max-width: 100vw;
+    width: 100vw;
+}
 
 
 /* ---------------------- Open Cart - Sidebar ---------------------- */
@@ -2905,6 +2909,7 @@ width: 211px;
 
 .btn-login {
     border-radius: 10px;
+    background: var(--primary);
 }
 
 @media (max-width: 576px) {
